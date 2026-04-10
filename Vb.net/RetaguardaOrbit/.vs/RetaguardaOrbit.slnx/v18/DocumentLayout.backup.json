@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C806F65-F02D-43DB-8CE9-E43F8317597E}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0C806F65-F02D-43DB-8CE9-E43F8317597E}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frminicio.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frminicio.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C806F65-F02D-43DB-8CE9-E43F8317597E}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0C806F65-F02D-43DB-8CE9-E43F8317597E}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C806F65-F02D-43DB-8CE9-E43F8317597E}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frminicio.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0C806F65-F02D-43DB-8CE9-E43F8317597E}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frminicio.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FrmInicio.vb [Projeto]",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmInicio.vb",
               "RelativeDocumentMoniker": "RetaguardaOrbit\\FrmInicio.vb",
@@ -42,25 +42,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmRetaguarda.vb",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb",
               "RelativeDocumentMoniker": "RetaguardaOrbit\\FrmRetaguarda.vb",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb*",
-              "RelativeToolTip": "RetaguardaOrbit\\FrmRetaguarda.vb*",
-              "ViewState": "AgIAAEsBAAAAAAAAAAAAAFIBAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb",
+              "RelativeToolTip": "RetaguardaOrbit\\FrmRetaguarda.vb",
+              "ViewState": "AgIAAJQCAAAAAAAAAAAAAJQCAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-04-10T11:50:04.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrmRetaguarda.vb [Projeto]",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb",
               "RelativeDocumentMoniker": "RetaguardaOrbit\\FrmRetaguarda.vb",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb [Projeto]*",
-              "RelativeToolTip": "RetaguardaOrbit\\FrmRetaguarda.vb [Projeto]*",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb [Projeto]",
+              "RelativeToolTip": "RetaguardaOrbit\\FrmRetaguarda.vb [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-04-10T11:50:00.103Z",
               "EditorCaption": " [Projeto]"

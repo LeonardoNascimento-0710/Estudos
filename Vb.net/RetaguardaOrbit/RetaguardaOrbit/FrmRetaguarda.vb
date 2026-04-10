@@ -1,6 +1,15 @@
-﻿Imports System.IO
+﻿Imports System.Drawing.Printing
+Imports System.IO
 Imports System.Windows.Forms.VisualStyles
 Imports MySql.Data.MySqlClient
+Imports iText.Kernel.Pdf
+Imports iText.Layout
+Imports iText.Layout.Element
+Imports iText.Layout.Properties
+Imports iText.IO.Image
+
+Imports ImgWin = System.Drawing.Image
+Imports ImgPdf = iText.Layout.Element.Image
 
 Public Class FrmRetaguarda
 
@@ -19,7 +28,6 @@ Public Class FrmRetaguarda
 
         SalvarProduto()
 
-
     End Sub
     Private Sub BtnSelecionarImagem_Click(sender As Object, e As EventArgs) Handles BtnSelecionarImagem.Click
 
@@ -28,7 +36,7 @@ Public Class FrmRetaguarda
         ofd.Filter = "Imagens|*.jpg;*.jpeg;*.png"
 
         If ofd.ShowDialog() = DialogResult.OK Then
-            PicProds.Image = Image.FromFile(ofd.FileName)
+            PicProds.Image = ImgWin.FromFile(ofd.FileName)
             PicProds.Tag = ofd.FileName
         End If
 
@@ -66,14 +74,14 @@ Public Class FrmRetaguarda
 
         If CmbFiltro.Text = "Custo" Then
             LblFiltro.Text = "Custo:"
-            CmbFiltroGrp.Visible = False
+            CmbTipoFiltro.Visible = False
             TxtFiltro.Enabled = True
             TxtFiltro.Visible = True
         End If
 
         If CmbFiltro.Text = "Venda" Then
             LblFiltro.Text = "Venda:"
-            CmbFiltroGrp.Visible = False
+            CmbTipoFiltro.Visible = False
             TxtFiltro.Enabled = True
             TxtFiltro.Visible = True
         End If
@@ -131,6 +139,9 @@ Handles DgvProdutos.CellEndEdit
             FormataInteiros(TxtQtdeProd)
         End If
 
+    End Sub
+    Private Sub BtnImprimir_Click(sender As Object, e As EventArgs) Handles BtnImprimir.Click
+        ImprimirProdutos()
     End Sub
 
 #End Region
@@ -331,7 +342,7 @@ Handles DgvProdutos.CellEndEdit
                                 Dim imgBytes() As Byte = CType(dr("imagem"), Byte())
 
                                 Using ms As New MemoryStream(imgBytes)
-                                    PicProds.Image = Image.FromStream(ms)
+                                    PicProds.Image = ImgWin.FromStream(ms)
                                 End Using
                             Else
                                 PicProds.Image = Nothing
@@ -657,6 +668,77 @@ Handles DgvProdutos.CellEndEdit
 
     End Sub
 
+    Private Sub ImprimirProdutos()
+
+        Try
+            Dim sfd As New SaveFileDialog()
+            sfd.Filter = "Arquivo PDF (*.pdf)|*.pdf"
+            sfd.FileName = "produtos_" & DateTime.Now.ToString("ddMMyyyy_HHmm") & ".pdf"
+
+            If sfd.ShowDialog() <> DialogResult.OK Then Exit Sub
+
+            Dim caminho As String = sfd.FileName
+
+            If DgvProdutos.Columns.Count = 0 Then Exit Sub
+            If DgvProdutos.Rows.Count = 0 Then Exit Sub
+
+            Dim writer As New PdfWriter(caminho)
+            Dim pdf As New PdfDocument(writer)
+            Dim doc As New Document(pdf)
+
+            doc.SetMargins(20, 20, 20, 20)
+
+            Dim tabela As New Table(DgvProdutos.Columns.Count)
+            tabela.SetWidth(iText.Layout.Properties.UnitValue.CreatePercentValue(100))
+            tabela.SetFixedLayout()
+
+            For Each col As DataGridViewColumn In DgvProdutos.Columns
+                Dim header As New Cell()
+                header.Add(New Paragraph(col.HeaderText))
+                tabela.AddHeaderCell(header)
+            Next
+
+            For Each row As DataGridViewRow In DgvProdutos.Rows
+                If Not row.IsNewRow Then
+
+                    For Each cell As DataGridViewCell In row.Cells
+
+                        Dim valor As String = ""
+
+                        If cell.Value IsNot Nothing AndAlso Not IsDBNull(cell.Value) Then
+                            valor = cell.Value.ToString()
+                        End If
+
+                        If valor.Length > 100 Then
+                            valor = valor.Substring(0, 100)
+                        End If
+
+                        Dim c As New Cell()
+                        c.Add(New Paragraph(valor))
+
+                        tabela.AddCell(c)
+
+                    Next
+
+                End If
+            Next
+
+            doc.Add(New Paragraph("RELATÓRIO DE PRODUTOS"))
+            doc.Add(New Paragraph("Data: " & DateTime.Now.ToString("dd/MM/yyyy HH:mm")))
+            doc.Add(New Paragraph(" "))
+
+            doc.Add(tabela)
+
+            doc.Close()
+
+            MessageBox.Show("PDF gerado com sucesso!")
+
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString())
+        End Try
+
+    End Sub
+
 #End Region
 
 
@@ -719,6 +801,10 @@ Handles DgvProdutos.CellEndEdit
         Return True
 
     End Function
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnImprimir.Click
+
+    End Sub
 
 #End Region
 

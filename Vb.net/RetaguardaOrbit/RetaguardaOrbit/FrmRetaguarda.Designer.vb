@@ -25,6 +25,7 @@ Partial Class FrmRetaguarda
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmRetaguarda))
         TbErp = New TabControl()
         TbCadatsros = New TabPage()
+        BtnImprimir = New Button()
         TbCads = New TabControl()
         TabPage1 = New TabPage()
         Panel1 = New Panel()
@@ -80,6 +81,7 @@ Partial Class FrmRetaguarda
         ' TbCadatsros
         ' 
         TbCadatsros.BackColor = Color.White
+        TbCadatsros.Controls.Add(BtnImprimir)
         TbCadatsros.Controls.Add(TbCads)
         TbCadatsros.Location = New Point(4, 24)
         TbCadatsros.Name = "TbCadatsros"
@@ -87,6 +89,16 @@ Partial Class FrmRetaguarda
         TbCadatsros.Size = New Size(739, 598)
         TbCadatsros.TabIndex = 0
         TbCadatsros.Text = "CADASTROS"
+        ' 
+        ' BtnImprimir
+        ' 
+        BtnImprimir.BackgroundImage = My.Resources.Resources.impressora
+        BtnImprimir.BackgroundImageLayout = ImageLayout.Zoom
+        BtnImprimir.Location = New Point(336, 547)
+        BtnImprimir.Name = "BtnImprimir"
+        BtnImprimir.Size = New Size(66, 42)
+        BtnImprimir.TabIndex = 1
+        BtnImprimir.UseVisualStyleBackColor = True
         ' 
         ' TbCads
         ' 
@@ -464,4 +476,5 @@ Partial Class FrmRetaguarda
     Friend WithEvents PicProds As PictureBox
     Friend WithEvents BtnSelecionarImagem As Button
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents BtnImprimir As Button
 End Class
