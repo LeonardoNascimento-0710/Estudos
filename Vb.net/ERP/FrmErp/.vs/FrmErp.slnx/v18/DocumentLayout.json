@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\erp\\frmerp\\frmerp\\frminicio.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|solutionrelative:frmerp\\frminicio.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\erp\\frmerp\\frmerp\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|solutionrelative:frmerp\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\erp\\frmerp\\frmerp\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|solutionrelative:frmerp\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\erp\\frmerp\\frmerp\\frmretaguarda.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5036DC5A-7BA6-B3EA-0AD3-D0E608884F6D}|FrmErp\\FrmErp.vbproj|solutionrelative:frmerp\\frmretaguarda.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmInicio.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmInicio.Designer.vb",
+              "RelativeDocumentMoniker": "FrmErp\\FrmInicio.Designer.vb",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmInicio.Designer.vb",
+              "RelativeToolTip": "FrmErp\\FrmInicio.Designer.vb",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-10T11:52:06.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmRetaguarda.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmRetaguarda.vb",
+              "RelativeDocumentMoniker": "FrmErp\\FrmRetaguarda.vb",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmRetaguarda.vb",
+              "RelativeToolTip": "FrmErp\\FrmRetaguarda.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-10T11:46:04.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmRetaguarda.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmRetaguarda.Designer.vb",
+              "RelativeDocumentMoniker": "FrmErp\\FrmRetaguarda.Designer.vb",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmRetaguarda.Designer.vb*",
+              "RelativeToolTip": "FrmErp\\FrmRetaguarda.Designer.vb*",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAiwHMBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-10T11:46:05.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmRetaguarda.vb [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmRetaguarda.vb",
+              "RelativeDocumentMoniker": "FrmErp\\FrmRetaguarda.vb",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\ERP\\FrmErp\\FrmErp\\FrmRetaguarda.vb [Projeto]",
+              "RelativeToolTip": "FrmErp\\FrmRetaguarda.vb [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-10T11:45:40.816Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
