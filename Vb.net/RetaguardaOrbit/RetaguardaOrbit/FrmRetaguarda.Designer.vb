@@ -183,7 +183,7 @@ Partial Class FrmRetaguarda
         CmbTipoEtq.DropDownStyle = ComboBoxStyle.DropDownList
         CmbTipoEtq.FormattingEnabled = True
         CmbTipoEtq.Items.AddRange(New Object() {"", "KG", "Unidade"})
-        CmbTipoEtq.Location = New Point(267, 82)
+        CmbTipoEtq.Location = New Point(267, 83)
         CmbTipoEtq.Name = "CmbTipoEtq"
         CmbTipoEtq.Size = New Size(83, 23)
         CmbTipoEtq.TabIndex = 5
@@ -191,7 +191,7 @@ Partial Class FrmRetaguarda
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(267, 64)
+        Label1.Location = New Point(267, 65)
         Label1.Name = "Label1"
         Label1.Size = New Size(75, 15)
         Label1.TabIndex = 27
@@ -199,7 +199,7 @@ Partial Class FrmRetaguarda
         ' 
         ' BtnLimpar
         ' 
-        BtnLimpar.Location = New Point(230, 111)
+        BtnLimpar.Location = New Point(230, 110)
         BtnLimpar.Name = "BtnLimpar"
         BtnLimpar.Size = New Size(101, 23)
         BtnLimpar.TabIndex = 9
@@ -218,7 +218,7 @@ Partial Class FrmRetaguarda
         ' 
         CmbTipoFiltro.DropDownStyle = ComboBoxStyle.DropDownList
         CmbTipoFiltro.FormattingEnabled = True
-        CmbTipoFiltro.Location = New Point(187, 156)
+        CmbTipoFiltro.Location = New Point(186, 156)
         CmbTipoFiltro.Name = "CmbTipoFiltro"
         CmbTipoFiltro.Size = New Size(161, 23)
         CmbTipoFiltro.TabIndex = 11
@@ -227,7 +227,7 @@ Partial Class FrmRetaguarda
         ' LblFiltro
         ' 
         LblFiltro.AutoSize = True
-        LblFiltro.Location = New Point(186, 138)
+        LblFiltro.Location = New Point(187, 137)
         LblFiltro.Name = "LblFiltro"
         LblFiltro.Size = New Size(53, 15)
         LblFiltro.TabIndex = 24
@@ -236,7 +236,7 @@ Partial Class FrmRetaguarda
         ' LblTipoFiltro
         ' 
         LblTipoFiltro.AutoSize = True
-        LblTipoFiltro.Location = New Point(23, 138)
+        LblTipoFiltro.Location = New Point(23, 137)
         LblTipoFiltro.Name = "LblTipoFiltro"
         LblTipoFiltro.Size = New Size(99, 15)
         LblTipoFiltro.TabIndex = 23
@@ -255,7 +255,7 @@ Partial Class FrmRetaguarda
         ' TxtFiltro
         ' 
         TxtFiltro.Enabled = False
-        TxtFiltro.Location = New Point(187, 156)
+        TxtFiltro.Location = New Point(186, 156)
         TxtFiltro.Name = "TxtFiltro"
         TxtFiltro.Size = New Size(160, 23)
         TxtFiltro.TabIndex = 12
@@ -271,7 +271,7 @@ Partial Class FrmRetaguarda
         ' 
         ' TxtQtdeProd
         ' 
-        TxtQtdeProd.Location = New Point(356, 82)
+        TxtQtdeProd.Location = New Point(356, 83)
         TxtQtdeProd.Name = "TxtQtdeProd"
         TxtQtdeProd.Size = New Size(79, 23)
         TxtQtdeProd.TabIndex = 6
@@ -295,7 +295,7 @@ Partial Class FrmRetaguarda
         ' 
         ' BtnExcluirProd
         ' 
-        BtnExcluirProd.Location = New Point(123, 111)
+        BtnExcluirProd.Location = New Point(123, 110)
         BtnExcluirProd.Name = "BtnExcluirProd"
         BtnExcluirProd.Size = New Size(101, 23)
         BtnExcluirProd.TabIndex = 8
@@ -304,7 +304,7 @@ Partial Class FrmRetaguarda
         ' 
         ' BtnGravar
         ' 
-        BtnGravar.Location = New Point(22, 111)
+        BtnGravar.Location = New Point(22, 110)
         BtnGravar.Name = "BtnGravar"
         BtnGravar.Size = New Size(95, 23)
         BtnGravar.TabIndex = 7
@@ -322,7 +322,7 @@ Partial Class FrmRetaguarda
         ' LblEstoque
         ' 
         LblEstoque.AutoSize = True
-        LblEstoque.Location = New Point(356, 64)
+        LblEstoque.Location = New Point(356, 65)
         LblEstoque.Name = "LblEstoque"
         LblEstoque.Size = New Size(78, 15)
         LblEstoque.TabIndex = 8
@@ -330,7 +330,7 @@ Partial Class FrmRetaguarda
         ' 
         ' TxtVenda
         ' 
-        TxtVenda.Location = New Point(186, 82)
+        TxtVenda.Location = New Point(186, 83)
         TxtVenda.Name = "TxtVenda"
         TxtVenda.Size = New Size(75, 23)
         TxtVenda.TabIndex = 4
@@ -338,7 +338,7 @@ Partial Class FrmRetaguarda
         ' LblPrecoV
         ' 
         LblPrecoV.AutoSize = True
-        LblPrecoV.Location = New Point(187, 64)
+        LblPrecoV.Location = New Point(187, 65)
         LblPrecoV.Name = "LblPrecoV"
         LblPrecoV.Size = New Size(39, 15)
         LblPrecoV.TabIndex = 6
@@ -346,7 +346,7 @@ Partial Class FrmRetaguarda
         ' 
         ' TxtCusto
         ' 
-        TxtCusto.Location = New Point(105, 82)
+        TxtCusto.Location = New Point(105, 83)
         TxtCusto.Name = "TxtCusto"
         TxtCusto.Size = New Size(75, 23)
         TxtCusto.TabIndex = 3
@@ -354,7 +354,7 @@ Partial Class FrmRetaguarda
         ' LblPrecoC
         ' 
         LblPrecoC.AutoSize = True
-        LblPrecoC.Location = New Point(105, 64)
+        LblPrecoC.Location = New Point(105, 65)
         LblPrecoC.Name = "LblPrecoC"
         LblPrecoC.Size = New Size(38, 15)
         LblPrecoC.TabIndex = 4
@@ -363,7 +363,7 @@ Partial Class FrmRetaguarda
         ' TxtCodProd
         ' 
         TxtCodProd.ImeMode = ImeMode.Off
-        TxtCodProd.Location = New Point(24, 82)
+        TxtCodProd.Location = New Point(24, 83)
         TxtCodProd.MaxLength = 14
         TxtCodProd.Name = "TxtCodProd"
         TxtCodProd.Size = New Size(75, 23)
