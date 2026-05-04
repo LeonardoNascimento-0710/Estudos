@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXISTS `retaguarda_orbit`
+DEFAULT CHARACTER SET utf8mb4
+COLLATE utf8mb4_0900_ai_ci;
+
+USE `retaguarda_orbit`;
+
+DROP TABLE IF EXISTS `produtos`;
+
+CREATE TABLE `produtos` (
+  `codigo` INT NOT NULL,
+  `nome` VARCHAR(100) DEFAULT NULL,
+  `custo` VARCHAR(20) DEFAULT NULL,
+  `venda` VARCHAR(20) DEFAULT NULL,
+  `qtde_estoque` VARCHAR(20) DEFAULT NULL,
+  `grupo` VARCHAR(50) DEFAULT NULL,
+  `tipo_etq` VARCHAR(15) DEFAULT NULL,
+  `imagem` LONGBLOB,
+  PRIMARY KEY (`codigo`)
+) ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_0900_ai_ci;

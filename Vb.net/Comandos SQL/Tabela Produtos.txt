@@ -1,7 +1,0 @@
-CREATE TABLE produtos (
-    codigo INT PRIMARY KEY,
-    nome VARCHAR(100),
-    custo DECIMAL(10,2),
-    venda DECIMAL(10,2),
-    qtde_estoque INT
-);

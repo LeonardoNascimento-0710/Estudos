@@ -424,6 +424,7 @@ Handles DgvProdutos.CellEndEdit
             End Using
 
             MessageBox.Show("Produto salvo com sucesso!")
+            LimparDados()
 
         Catch ex As Exception
             MessageBox.Show("Erro ao salvar: " & ex.Message)
@@ -645,9 +646,9 @@ Handles DgvProdutos.CellEndEdit
             End Using
 
             MessageBox.Show("Produto excluído com sucesso!")
-            LimparDados()
             CarregarCmbProdutos()
             CarregarDgvProdutos()
+            LimparDados()
 
         Catch ex As Exception
             MessageBox.Show("Erro ao excluir produto: " & ex.Message)
