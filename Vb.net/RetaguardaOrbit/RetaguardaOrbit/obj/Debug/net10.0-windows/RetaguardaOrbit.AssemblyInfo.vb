@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("RetaguardaOrbit"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f594c4de2e8742098b2adb72186fcc090cecf2cc"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8701c03fb3c797f18c150ba398ab4ae19a2469bc"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("RetaguardaOrbit"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("RetaguardaOrbit"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

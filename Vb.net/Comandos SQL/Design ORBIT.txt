@@ -1,0 +1,480 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class FrmRetaguarda
+    Inherits System.Windows.Forms.Form
+
+    'Descartar substituições de formulário para limpar a lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Exigido pelo Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'OBSERVAÇÃO: o procedimento a seguir é exigido pelo Windows Form Designer
+    'Pode ser modificado usando o Windows Form Designer.  
+    'Não o modifique usando o editor de códigos.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmRetaguarda))
+        TbErp = New TabControl()
+        TbCadatsros = New TabPage()
+        BtnImprimir = New Button()
+        TbCads = New TabControl()
+        TabPage1 = New TabPage()
+        Panel1 = New Panel()
+        PicProds = New PictureBox()
+        BtnSelecionarImagem = New Button()
+        CmbTipoEtq = New ComboBox()
+        Label1 = New Label()
+        BtnLimpar = New Button()
+        CmbGrupos = New ComboBox()
+        CmbTipoFiltro = New ComboBox()
+        LblFiltro = New Label()
+        LblTipoFiltro = New Label()
+        CmbFiltro = New ComboBox()
+        TxtFiltro = New TextBox()
+        LblGrpProdutos = New Label()
+        TxtQtdeProd = New TextBox()
+        BtnLoadProds = New Button()
+        CmbProdutos = New ComboBox()
+        BtnExcluirProd = New Button()
+        BtnGravar = New Button()
+        DgvProdutos = New DataGridView()
+        LblEstoque = New Label()
+        TxtVenda = New TextBox()
+        LblPrecoV = New Label()
+        TxtCusto = New TextBox()
+        LblPrecoC = New Label()
+        TxtCodProd = New TextBox()
+        LblCodProd = New Label()
+        LblNomeProd = New Label()
+        TabPage2 = New TabPage()
+        TbEstoque = New TabPage()
+        TbRelatorios = New TabPage()
+        TbErp.SuspendLayout()
+        TbCadatsros.SuspendLayout()
+        TbCads.SuspendLayout()
+        TabPage1.SuspendLayout()
+        Panel1.SuspendLayout()
+        CType(PicProds, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DgvProdutos, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' TbErp
+        ' 
+        TbErp.Controls.Add(TbCadatsros)
+        TbErp.Controls.Add(TbEstoque)
+        TbErp.Controls.Add(TbRelatorios)
+        TbErp.Location = New Point(12, 12)
+        TbErp.Name = "TbErp"
+        TbErp.SelectedIndex = 0
+        TbErp.Size = New Size(747, 626)
+        TbErp.TabIndex = 0
+        ' 
+        ' TbCadatsros
+        ' 
+        TbCadatsros.BackColor = Color.White
+        TbCadatsros.Controls.Add(BtnImprimir)
+        TbCadatsros.Controls.Add(TbCads)
+        TbCadatsros.Location = New Point(4, 24)
+        TbCadatsros.Name = "TbCadatsros"
+        TbCadatsros.Padding = New Padding(3)
+        TbCadatsros.Size = New Size(739, 598)
+        TbCadatsros.TabIndex = 0
+        TbCadatsros.Text = "CADASTROS"
+        ' 
+        ' BtnImprimir
+        ' 
+        BtnImprimir.BackgroundImage = My.Resources.Resources.impressora
+        BtnImprimir.BackgroundImageLayout = ImageLayout.Zoom
+        BtnImprimir.Location = New Point(336, 547)
+        BtnImprimir.Name = "BtnImprimir"
+        BtnImprimir.Size = New Size(66, 42)
+        BtnImprimir.TabIndex = 1
+        BtnImprimir.UseVisualStyleBackColor = True
+        ' 
+        ' TbCads
+        ' 
+        TbCads.Controls.Add(TabPage1)
+        TbCads.Controls.Add(TabPage2)
+        TbCads.Location = New Point(6, 6)
+        TbCads.Name = "TbCads"
+        TbCads.SelectedIndex = 0
+        TbCads.Size = New Size(926, 539)
+        TbCads.TabIndex = 0
+        ' 
+        ' TabPage1
+        ' 
+        TabPage1.Controls.Add(Panel1)
+        TabPage1.Controls.Add(BtnSelecionarImagem)
+        TabPage1.Controls.Add(CmbTipoEtq)
+        TabPage1.Controls.Add(Label1)
+        TabPage1.Controls.Add(BtnLimpar)
+        TabPage1.Controls.Add(CmbGrupos)
+        TabPage1.Controls.Add(CmbTipoFiltro)
+        TabPage1.Controls.Add(LblFiltro)
+        TabPage1.Controls.Add(LblTipoFiltro)
+        TabPage1.Controls.Add(CmbFiltro)
+        TabPage1.Controls.Add(TxtFiltro)
+        TabPage1.Controls.Add(LblGrpProdutos)
+        TabPage1.Controls.Add(TxtQtdeProd)
+        TabPage1.Controls.Add(BtnLoadProds)
+        TabPage1.Controls.Add(CmbProdutos)
+        TabPage1.Controls.Add(BtnExcluirProd)
+        TabPage1.Controls.Add(BtnGravar)
+        TabPage1.Controls.Add(DgvProdutos)
+        TabPage1.Controls.Add(LblEstoque)
+        TabPage1.Controls.Add(TxtVenda)
+        TabPage1.Controls.Add(LblPrecoV)
+        TabPage1.Controls.Add(TxtCusto)
+        TabPage1.Controls.Add(LblPrecoC)
+        TabPage1.Controls.Add(TxtCodProd)
+        TabPage1.Controls.Add(LblCodProd)
+        TabPage1.Controls.Add(LblNomeProd)
+        TabPage1.Location = New Point(4, 24)
+        TabPage1.Name = "TabPage1"
+        TabPage1.Padding = New Padding(3)
+        TabPage1.Size = New Size(918, 511)
+        TabPage1.TabIndex = 0
+        TabPage1.Text = "PRODUTOS"
+        TabPage1.UseVisualStyleBackColor = True
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.DarkGray
+        Panel1.Controls.Add(PicProds)
+        Panel1.Location = New Point(562, 34)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(145, 145)
+        Panel1.TabIndex = 30
+        ' 
+        ' PicProds
+        ' 
+        PicProds.ErrorImage = Nothing
+        PicProds.Image = My.Resources.Resources.Foto
+        PicProds.InitialImage = My.Resources.Resources.Foto
+        PicProds.Location = New Point(16, 14)
+        PicProds.Name = "PicProds"
+        PicProds.Size = New Size(115, 116)
+        PicProds.SizeMode = PictureBoxSizeMode.StretchImage
+        PicProds.TabIndex = 28
+        PicProds.TabStop = False
+        ' 
+        ' BtnSelecionarImagem
+        ' 
+        BtnSelecionarImagem.BackgroundImage = My.Resources.Resources.Foto
+        BtnSelecionarImagem.BackgroundImageLayout = ImageLayout.Zoom
+        BtnSelecionarImagem.Location = New Point(618, 185)
+        BtnSelecionarImagem.Name = "BtnSelecionarImagem"
+        BtnSelecionarImagem.Size = New Size(32, 27)
+        BtnSelecionarImagem.TabIndex = 29
+        BtnSelecionarImagem.UseVisualStyleBackColor = True
+        ' 
+        ' CmbTipoEtq
+        ' 
+        CmbTipoEtq.AllowDrop = True
+        CmbTipoEtq.DropDownStyle = ComboBoxStyle.DropDownList
+        CmbTipoEtq.FormattingEnabled = True
+        CmbTipoEtq.Items.AddRange(New Object() {"", "KG", "Unidade"})
+        CmbTipoEtq.Location = New Point(267, 83)
+        CmbTipoEtq.Name = "CmbTipoEtq"
+        CmbTipoEtq.Size = New Size(83, 23)
+        CmbTipoEtq.TabIndex = 5
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(267, 65)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(75, 15)
+        Label1.TabIndex = 27
+        Label1.Text = "Tipo Estoque"
+        ' 
+        ' BtnLimpar
+        ' 
+        BtnLimpar.Location = New Point(230, 110)
+        BtnLimpar.Name = "BtnLimpar"
+        BtnLimpar.Size = New Size(101, 23)
+        BtnLimpar.TabIndex = 9
+        BtnLimpar.Text = "Limpar campos"
+        BtnLimpar.UseVisualStyleBackColor = True
+        ' 
+        ' CmbGrupos
+        ' 
+        CmbGrupos.FormattingEnabled = True
+        CmbGrupos.Location = New Point(356, 39)
+        CmbGrupos.Name = "CmbGrupos"
+        CmbGrupos.Size = New Size(161, 23)
+        CmbGrupos.TabIndex = 1
+        ' 
+        ' CmbTipoFiltro
+        ' 
+        CmbTipoFiltro.DropDownStyle = ComboBoxStyle.DropDownList
+        CmbTipoFiltro.FormattingEnabled = True
+        CmbTipoFiltro.Location = New Point(186, 156)
+        CmbTipoFiltro.Name = "CmbTipoFiltro"
+        CmbTipoFiltro.Size = New Size(161, 23)
+        CmbTipoFiltro.TabIndex = 11
+        CmbTipoFiltro.Visible = False
+        ' 
+        ' LblFiltro
+        ' 
+        LblFiltro.AutoSize = True
+        LblFiltro.Location = New Point(187, 137)
+        LblFiltro.Name = "LblFiltro"
+        LblFiltro.Size = New Size(53, 15)
+        LblFiltro.TabIndex = 24
+        LblFiltro.Text = "Pesquisa"
+        ' 
+        ' LblTipoFiltro
+        ' 
+        LblTipoFiltro.AutoSize = True
+        LblTipoFiltro.Location = New Point(23, 137)
+        LblTipoFiltro.Name = "LblTipoFiltro"
+        LblTipoFiltro.Size = New Size(99, 15)
+        LblTipoFiltro.TabIndex = 23
+        LblTipoFiltro.Text = "Filtro de pesquisa"
+        ' 
+        ' CmbFiltro
+        ' 
+        CmbFiltro.DropDownStyle = ComboBoxStyle.DropDownList
+        CmbFiltro.FormattingEnabled = True
+        CmbFiltro.Items.AddRange(New Object() {"Grupo", "Custo", "Venda", "Tipo estoque"})
+        CmbFiltro.Location = New Point(24, 156)
+        CmbFiltro.Name = "CmbFiltro"
+        CmbFiltro.Size = New Size(156, 23)
+        CmbFiltro.TabIndex = 10
+        ' 
+        ' TxtFiltro
+        ' 
+        TxtFiltro.Enabled = False
+        TxtFiltro.Location = New Point(186, 156)
+        TxtFiltro.Name = "TxtFiltro"
+        TxtFiltro.Size = New Size(160, 23)
+        TxtFiltro.TabIndex = 12
+        ' 
+        ' LblGrpProdutos
+        ' 
+        LblGrpProdutos.AutoSize = True
+        LblGrpProdutos.Location = New Point(356, 21)
+        LblGrpProdutos.Name = "LblGrpProdutos"
+        LblGrpProdutos.Size = New Size(40, 15)
+        LblGrpProdutos.TabIndex = 19
+        LblGrpProdutos.Text = "Grupo"
+        ' 
+        ' TxtQtdeProd
+        ' 
+        TxtQtdeProd.Location = New Point(356, 83)
+        TxtQtdeProd.Name = "TxtQtdeProd"
+        TxtQtdeProd.Size = New Size(79, 23)
+        TxtQtdeProd.TabIndex = 6
+        ' 
+        ' BtnLoadProds
+        ' 
+        BtnLoadProds.Location = New Point(24, 193)
+        BtnLoadProds.Name = "BtnLoadProds"
+        BtnLoadProds.Size = New Size(102, 23)
+        BtnLoadProds.TabIndex = 13
+        BtnLoadProds.Text = "Carregar produtos"
+        BtnLoadProds.UseVisualStyleBackColor = True
+        ' 
+        ' CmbProdutos
+        ' 
+        CmbProdutos.FormattingEnabled = True
+        CmbProdutos.Location = New Point(24, 39)
+        CmbProdutos.Name = "CmbProdutos"
+        CmbProdutos.Size = New Size(326, 23)
+        CmbProdutos.TabIndex = 0
+        ' 
+        ' BtnExcluirProd
+        ' 
+        BtnExcluirProd.Location = New Point(123, 110)
+        BtnExcluirProd.Name = "BtnExcluirProd"
+        BtnExcluirProd.Size = New Size(101, 23)
+        BtnExcluirProd.TabIndex = 8
+        BtnExcluirProd.Text = "Excluir Produto"
+        BtnExcluirProd.UseVisualStyleBackColor = True
+        ' 
+        ' BtnGravar
+        ' 
+        BtnGravar.Location = New Point(22, 110)
+        BtnGravar.Name = "BtnGravar"
+        BtnGravar.Size = New Size(95, 23)
+        BtnGravar.TabIndex = 7
+        BtnGravar.Text = "Gravar dados"
+        BtnGravar.UseVisualStyleBackColor = True
+        ' 
+        ' DgvProdutos
+        ' 
+        DgvProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DgvProdutos.Location = New Point(24, 222)
+        DgvProdutos.Name = "DgvProdutos"
+        DgvProdutos.Size = New Size(683, 283)
+        DgvProdutos.TabIndex = 14
+        ' 
+        ' LblEstoque
+        ' 
+        LblEstoque.AutoSize = True
+        LblEstoque.Location = New Point(356, 65)
+        LblEstoque.Name = "LblEstoque"
+        LblEstoque.Size = New Size(78, 15)
+        LblEstoque.TabIndex = 8
+        LblEstoque.Text = "Qtde Estoque"
+        ' 
+        ' TxtVenda
+        ' 
+        TxtVenda.Location = New Point(186, 83)
+        TxtVenda.Name = "TxtVenda"
+        TxtVenda.Size = New Size(75, 23)
+        TxtVenda.TabIndex = 4
+        ' 
+        ' LblPrecoV
+        ' 
+        LblPrecoV.AutoSize = True
+        LblPrecoV.Location = New Point(187, 65)
+        LblPrecoV.Name = "LblPrecoV"
+        LblPrecoV.Size = New Size(39, 15)
+        LblPrecoV.TabIndex = 6
+        LblPrecoV.Text = "Venda"
+        ' 
+        ' TxtCusto
+        ' 
+        TxtCusto.Location = New Point(105, 83)
+        TxtCusto.Name = "TxtCusto"
+        TxtCusto.Size = New Size(75, 23)
+        TxtCusto.TabIndex = 3
+        ' 
+        ' LblPrecoC
+        ' 
+        LblPrecoC.AutoSize = True
+        LblPrecoC.Location = New Point(105, 65)
+        LblPrecoC.Name = "LblPrecoC"
+        LblPrecoC.Size = New Size(38, 15)
+        LblPrecoC.TabIndex = 4
+        LblPrecoC.Text = "Custo"
+        ' 
+        ' TxtCodProd
+        ' 
+        TxtCodProd.ImeMode = ImeMode.Off
+        TxtCodProd.Location = New Point(24, 83)
+        TxtCodProd.MaxLength = 14
+        TxtCodProd.Name = "TxtCodProd"
+        TxtCodProd.Size = New Size(75, 23)
+        TxtCodProd.TabIndex = 2
+        ' 
+        ' LblCodProd
+        ' 
+        LblCodProd.AutoSize = True
+        LblCodProd.Location = New Point(24, 64)
+        LblCodProd.Name = "LblCodProd"
+        LblCodProd.Size = New Size(46, 15)
+        LblCodProd.TabIndex = 1
+        LblCodProd.Text = "Codigo"
+        ' 
+        ' LblNomeProd
+        ' 
+        LblNomeProd.AutoSize = True
+        LblNomeProd.Location = New Point(24, 21)
+        LblNomeProd.Name = "LblNomeProd"
+        LblNomeProd.Size = New Size(50, 15)
+        LblNomeProd.TabIndex = 0
+        LblNomeProd.Text = "Produto"
+        ' 
+        ' TabPage2
+        ' 
+        TabPage2.Location = New Point(4, 24)
+        TabPage2.Name = "TabPage2"
+        TabPage2.Padding = New Padding(3)
+        TabPage2.Size = New Size(918, 511)
+        TabPage2.TabIndex = 1
+        TabPage2.Text = "CLIENTES"
+        TabPage2.UseVisualStyleBackColor = True
+        ' 
+        ' TbEstoque
+        ' 
+        TbEstoque.BackColor = Color.White
+        TbEstoque.Location = New Point(4, 24)
+        TbEstoque.Name = "TbEstoque"
+        TbEstoque.Padding = New Padding(3)
+        TbEstoque.Size = New Size(739, 598)
+        TbEstoque.TabIndex = 1
+        TbEstoque.Text = "ESTOQUE"
+        ' 
+        ' TbRelatorios
+        ' 
+        TbRelatorios.BackColor = Color.White
+        TbRelatorios.Location = New Point(4, 24)
+        TbRelatorios.Name = "TbRelatorios"
+        TbRelatorios.Size = New Size(739, 598)
+        TbRelatorios.TabIndex = 2
+        TbRelatorios.Text = "RELATÓRIOS"
+        ' 
+        ' FrmRetaguarda
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(134), CByte(29), CByte(29))
+        ClientSize = New Size(771, 650)
+        Controls.Add(TbErp)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        MaximizeBox = False
+        MdiChildrenMinimizedAnchorBottom = False
+        MinimizeBox = False
+        Name = "FrmRetaguarda"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Retaguarda"
+        TbErp.ResumeLayout(False)
+        TbCadatsros.ResumeLayout(False)
+        TbCads.ResumeLayout(False)
+        TabPage1.ResumeLayout(False)
+        TabPage1.PerformLayout()
+        Panel1.ResumeLayout(False)
+        CType(PicProds, ComponentModel.ISupportInitialize).EndInit()
+        CType(DgvProdutos, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
+    End Sub
+
+    Friend WithEvents TbCads As TabControl
+    Friend WithEvents TbRelatorios As TabPage
+    Friend WithEvents TbEstoque As TabPage
+    Friend WithEvents TbErp As TabControl
+    Friend WithEvents TbCadatsros As TabPage
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents TxtCodProd As TextBox
+    Friend WithEvents LblCodProd As Label
+    Friend WithEvents LblNomeProd As Label
+    Friend WithEvents DgvProdutos As DataGridView
+    Friend WithEvents LblEstoque As Label
+    Friend WithEvents TxtVenda As TextBox
+    Friend WithEvents LblPrecoV As Label
+    Friend WithEvents TxtCusto As TextBox
+    Friend WithEvents LblPrecoC As Label
+    Friend WithEvents BtnExcluirProd As Button
+    Friend WithEvents BtnGravar As Button
+    Friend WithEvents CmbProdutos As ComboBox
+    Friend WithEvents BtnLoadProds As Button
+    Friend WithEvents TxtQtdeProd As TextBox
+    Friend WithEvents LblGrpProdutos As Label
+    Friend WithEvents CmbFiltro As ComboBox
+    Friend WithEvents TxtFiltro As TextBox
+    Friend WithEvents LblFiltro As Label
+    Friend WithEvents LblTipoFiltro As Label
+    Friend WithEvents CmbFiltroGrp As ComboBox
+    Friend WithEvents CmbGrupos As ComboBox
+    Friend WithEvents BtnLimpar As Button
+    Friend WithEvents CmbTipoEtq As ComboBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents CmbTipoFiltro As ComboBox
+    Friend WithEvents PicProds As PictureBox
+    Friend WithEvents BtnSelecionarImagem As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents BtnImprimir As Button
+End Class

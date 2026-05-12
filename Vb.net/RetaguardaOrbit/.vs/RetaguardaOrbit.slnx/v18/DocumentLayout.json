@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|c:\\users\\administrador\\desktop\\git\\estudos\\vb.net\\retaguardaorbit\\retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{009A1F8E-5497-02D7-8CA4-426045A2A5A5}|RetaguardaOrbit\\RetaguardaOrbit.vbproj|solutionrelative:retaguardaorbit\\frmretaguarda.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmRetaguarda.vb",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb",
               "RelativeDocumentMoniker": "RetaguardaOrbit\\FrmRetaguarda.vb",
@@ -39,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmRetaguarda.vb [Projeto]",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Git\\Estudos\\Vb.net\\RetaguardaOrbit\\RetaguardaOrbit\\FrmRetaguarda.vb",
               "RelativeDocumentMoniker": "RetaguardaOrbit\\FrmRetaguarda.vb",
